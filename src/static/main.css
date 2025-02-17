@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(19, 31, 36);
+    color: white;
+    margin: 0;
+}
+
+header, footer{
+    height: 10vh;
+    background-color: aqua;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    height: 80vh;
+    flex: 1;
+}
+
+aside{
+    height: 80vh;
+    background-color: aquamarine;
+    width: 10vh;
+}
