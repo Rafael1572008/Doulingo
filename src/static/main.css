@@ -60,10 +60,17 @@ aside {
     object-fit: cover;
 }
 
-.legue{
+#legue{
     width: 100%;
-    height: auto; /* Ajustado para o conteúdo */
-    background-color: whitesmoke;
-    padding: 2vh;
-    margin-top: 3vh; /* Espaçamento entre .display e .legue */
+    height: 30vh; /* Ajustado para o conteúdo */
+    padding: 1vh;
+    border-radius: 5px black;
+}
+
+#titulo_legue{
+    display: flex; /* Faz os elementos ficarem lado a lado */
+    gap: 0; /* Remove qualquer gap interno entre os itens */
+    justify-content: space-between; /* Maximiza o espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 1vh; /* Adiciona um espaçamento interno */
 }
