@@ -64,7 +64,8 @@ aside {
     width: 100%;
     height: 30vh; /* Ajustado para o conteúdo */
     padding: 1vh;
-    border-radius: 5px black;
+    border: 3px solid rgb(65, 65, 65); /* Borda azul neon */
+    border-radius: 20px;
 }
 
 #titulo_legue{
@@ -73,4 +74,22 @@ aside {
     justify-content: space-between; /* Maximiza o espaço entre os itens */
     align-items: center; /* Alinha os itens verticalmente */
     padding: 1vh; /* Adiciona um espaçamento interno */
+}
+#titulo_legue a{
+    color: #00F0FF; /* Azul neon */
+    text-decoration: none; /* Remove sublinhado padrão */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    transition: 0.3s;
+}
+#img_legue{
+    margin-left: 4vh;
+}
+#img_legue_2{
+    display: flex;
+    gap: 5vh; 
+}
+#img_write{
+    flex-direction: column;
+    display: flex;
+    gap: 1vh;
 }
