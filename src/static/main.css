@@ -1,26 +1,69 @@
-body{
+body {
     background-color: rgb(19, 31, 36);
     color: white;
     margin: 0;
 }
 
-header, footer{
+footer {
     height: 10vh;
     background-color: aqua;
 }
 
-section{
+section {
     display: flex;
     flex-direction: row;
 }
 
-main{
+main {
     height: 80vh;
     flex: 1;
 }
 
-aside{
+aside {
     height: 80vh;
-    background-color: aquamarine;
-    width: 10vh;
+    width: 60vh;
+    transition: all 0.3s ease; /* Suaviza a mudança */
+    padding: 4vh;
+}
+
+.display {
+    display: flex; /* Faz os elementos ficarem lado a lado */
+    gap: 3vh; /* Adiciona espaço entre as imagens */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 1vh; /* Adiciona um espaçamento interno */
+}
+
+.obj_curso {
+    width: 5.5; /* Define um tamanho pequeno para a div */
+    height: 6vh;
+    overflow: hidden; /* Garante que a imagem não ultrapasse a div */
+    position: relative;
+    border-radius: 0.5vh; /* Opcional: arredonda os cantos */
+}
+
+.obj_curso img {
+    width: 100%; /* Faz a imagem preencher a div */
+    height: 100%;
+    object-fit: cover; /* Recorta a imagem para preencher sem distorcer */
+}
+
+.obj_curso_n {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 3vh; /* Espaço entre imagem e texto */
+    width: auto;
+    padding: 0.5vh;
+}
+.obj_curso_n img {
+    width: 5.5vh; /* Ajuste o tamanho da imagem */
+    height: 6vh;
+    object-fit: cover;
+}
+
+.legue{
+    width: 100%;
+    height: auto; /* Ajustado para o conteúdo */
+    background-color: whitesmoke;
+    padding: 2vh;
+    margin-top: 3vh; /* Espaçamento entre .display e .legue */
 }
