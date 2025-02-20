@@ -88,8 +88,106 @@ aside {
     display: flex;
     gap: 5vh; 
 }
-#img_write{
-    flex-direction: column;
+#legue_write {
     display: flex;
-    gap: 1vh;
+    flex-direction: column; /* Empilha os spans verticalmente */
+    gap: 1vh; /* Adiciona um espaço entre os spans */
+}
+#legue_write span {
+    display: block; /* Garante que cada span ocupe uma linha */
+    font-size: 2.6vh; /* Ajusta o tamanho da fonte */
+}
+#Daily_quest{
+    width: 100%;
+    height: 60vh; /* Ajustado para o conteúdo */
+    padding: 1vh;
+    padding-right: 1vh;
+    border: 3px solid rgb(65, 65, 65); /* Borda azul neon */
+    border-radius: 20px;
+    margin-top: 5vh;
+}
+#display_daily{
+    display: flex;
+    gap: 0; /* Remove qualquer gap interno entre os itens */
+    justify-content: space-between; /* Maximiza o espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+#display_daily a{
+    color: #00F0FF; /* Azul neon */
+    text-decoration: none; /* Remove sublinhado padrão */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    transition: 0.3s;
+}
+.xp-container {
+    background: #33333300;
+    padding: 20px;
+    border-radius: 10px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative; /* Define o contêiner como relativo */
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/2b5a211d830a24fab92e291d50f65d1d.svg");
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+}
+
+.progress-bar {
+    flex: 1;
+    background: #555;
+    height: 10px;
+    border-radius: 5px;
+    position: relative; /* Mantém a barra de progresso relativa */
+    margin-top: 10px; /* Adiciona um espaço entre o texto e a barra */
+}
+
+.progress {
+    background: #ffcc00;
+    height: 100%;
+    width: 0%; /* Você pode ajustar isso dinamicamente */
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+
+.xp-text {
+    font-size: 20px;
+    position: absolute; /* Torna o texto absoluto */
+    top: -10px; /* Ajusta a posição do texto acima da barra de progresso */
+    left: 0; /* Alinha o texto à esquerda da barra de progresso */
+    text-align: center; /* Centraliza o texto em relação à barra de progresso */
+    width: 70%; /* Faz com que o texto ocupe toda a largura do contêiner */
+}
+
+
+.reward {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/df7eda7cc1cc833ba30cd1e82781b68f.svg");
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+}
+
+.reward_3 {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/ca23da57929a3144934ee0571a2f44e9.svg");
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+}
+.reward_2 {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/9ec970f9fd7820abd758cb4cf805e73c.svg");
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
 }

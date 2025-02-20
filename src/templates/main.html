@@ -49,14 +49,54 @@
                                 <img src="https://d35aaqx5ub95lt.cloudfront.net/images/leagues/0e249b5f869b806da7406b815f4d60c6.svg">
                             </div>
                             <div id="legue_write">
-                                <span>You're ranked #7</span>
-                                <span>You’re ranked #7 You've earned 1189 XP this week so far</span>
+                                <span>You're ranked <font color="green">#7</font></span>
+                                <span>You've earned 1189 XP this week so far</span>
                             </div>
                         </div>
                 </div>
+            </div>
+
+            <div id="Daily_quest">
+                <div id="display_daily">
+                    <h3>Daily Quest</h3>
+                    <a href="">hello</a>
+                </div>
+                
+                            <div id="miss">
+                                <div id="miss_main">
+                                    <img href="https://d35aaqx5ub95lt.cloudfront.net/images/goals/2b5a211d830a24fab92e291d50f65d1d.svg">
+                                    <div id="miss_write">
+                                        <div class="xp-container">
+                                            <div class="icon"></div>
+                                            <span class="xp-text">Earn 30 XP</span>
+                                            <div class="progress-bar">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="reward"></div>
+                                        </div><br>
+
+                                        <div class="xp-container">
+                                            <div class="icon"></div>
+                                            <span class="xp-text">Earn 30 XP</span>
+                                            <div class="progress-bar">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="reward_2"></div>
+                                        </div>
 
 
+                                        <div class="xp-container">
+                                            <div class="icon"></div>
+                                            <span class="xp-text">Earn 30 XP</span>
+                                            <div class="progress-bar">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <div class="reward_3"></div>
+                                        </div>
 
+                                    </div>
+                                </div>
+                            </div>
             </div>
 
 
@@ -67,5 +107,6 @@
         <footer></footer>
     </section>
     
+    <script src="{{ url_for('static', filename='scrypt.js') }}"></script>
 </body>
 </html>
