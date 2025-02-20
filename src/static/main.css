@@ -26,6 +26,7 @@ aside {
     padding: 4vh;
 }
 
+
 .display {
     display: flex; /* Faz os elementos ficarem lado a lado */
     gap: 3vh; /* Adiciona espaço entre as imagens */
@@ -111,6 +112,8 @@ aside {
     gap: 0; /* Remove qualquer gap interno entre os itens */
     justify-content: space-between; /* Maximiza o espaço entre os itens */
     align-items: center; /* Alinha os itens verticalmente */
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #display_daily a{
     color: #00F0FF; /* Azul neon */
@@ -190,4 +193,7 @@ aside {
     border-radius: 3px;
     background-size: cover;
     background-position: center; /* Centraliza a imagem */
+}
+#mai{
+    height: 1500px;
 }
