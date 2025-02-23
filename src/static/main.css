@@ -15,15 +15,20 @@ section {
 }
 
 main {
-    height: 80vh;
     flex: 1;
+    margin-right: 60vh; /* Espaço para a sidebar */
+    padding: 20px; /* Adiciona um espaçamento interno */
 }
 
 aside {
-    height: 80vh;
     width: 60vh;
-    transition: all 0.3s ease; /* Suaviza a mudança */
+    height: 100vh; /* Ocupa a altura total da tela */
+    position: fixed; /* Fixa a sidebar na tela */
+    top: 0;
+    right: 0; /* Posiciona a sidebar à direita */
+    background-color: rgb(19, 31, 36); /* Cor de fundo para combinar com o body */
     padding: 4vh;
+    overflow-y: auto; /* Permite rolagem interna se o conteúdo for muito longo */
 }
 
 
@@ -100,12 +105,13 @@ aside {
 }
 #Daily_quest{
     width: 100%;
-    height: 60vh; /* Ajustado para o conteúdo */
+    height: 59vh; /* Ajustado para o conteúdo */
     padding: 1vh;
     padding-right: 1vh;
     border: 3px solid rgb(65, 65, 65); /* Borda azul neon */
     border-radius: 20px;
     margin-top: 5vh;
+    margin-bottom: 20vh;
 }
 #display_daily{
     display: flex;
@@ -194,6 +200,74 @@ aside {
     background-size: cover;
     background-position: center; /* Centraliza a imagem */
 }
+nav {
+    width: 240px;
+    height: 100vh;
+    background-color: rgb(19, 31, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed
+}
 #mai{
     height: 1500px;
+}
+#div_logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o container do logo */
+#logo_h1 {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Estilos para a imagem do logo */
+#logo {
+    width: 120px;
+    height: auto;
+}
+#nav_bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.nav_item {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(30, 50, 60);
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 2px solid rgb(65, 65, 65);
+    transition: 0.3s;
+}
+.nav_item:hover {
+    background-color: rgb(40, 60, 70);
+}
+.nav_item a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav_bar_img img {
+    width: 25px;
+    height: 25px;
+}
+.nav_item_1 span{
+    display: flex;
+    gap: 0; /* Remove qualquer gap interno entre os itens */
+    justify-content: space-between; /* Maximiza o espaço entre os itens */
 }
