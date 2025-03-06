@@ -36,59 +36,59 @@ aside {
 
 
 .display {
-  display: flex; /* Faz os elementos ficarem lado a lado */
-  gap: 4.2vh; /* Adiciona espaço entre as imagens */
-  align-items: center; /* Alinha os itens verticalmente */
-  padding: 1vh; /* Adiciona um espaçamento interno */
+  display: flex; 
+  gap: 4.2vh; 
+  align-items: center; 
+  padding: 1vh; 
   width: 400px;
 }
 
 .obj_curso {
-  width: 5.5; /* Define um tamanho pequeno para a div */
+  width: 5.5; 
   height: 6vh;
-  overflow: hidden; /* Garante que a imagem não ultrapasse a div */
+  overflow: hidden; 
   position: relative;
-  border-radius: 0.5vh; /* Opcional: arredonda os cantos */
+  border-radius: 0.5vh; 
 }
 
 .obj_curso img {
-  width: 100%; /* Faz a imagem preencher a div */
+  width: 100%;
   height: 100%;
-  object-fit: cover; /* Recorta a imagem para preencher sem distorcer */
+  object-fit: cover; 
 }
 
 .obj_curso_n {
   display: flex;
-  align-items: center; /* Alinha verticalmente */
-  gap: 3vh; /* Espaço entre imagem e texto */
+  align-items: center; 
+  gap: 3vh; 
   width: auto;
   padding: 0.5vh;
 }
 .obj_curso_n img {
-  width: 5.5vh; /* Ajuste o tamanho da imagem */
+  width: 5.5vh; 
   height: 6vh;
   object-fit: cover;
 }
 
 #legue{
   width: 100%;
-  height: 30vh; /* Ajustado para o conteúdo */
+  height: 30vh; 
   padding: 1vh;
-  border: 3px solid rgb(65, 65, 65); /* Borda azul neon */
+  border: 3px solid rgb(65, 65, 65); 
   border-radius: 20px;
 }
 
 #titulo_legue{
-  display: flex; /* Faz os elementos ficarem lado a lado */
-  gap: 0; /* Remove qualquer gap interno entre os itens */
-  justify-content: space-between; /* Maximiza o espaço entre os itens */
-  align-items: center; /* Alinha os itens verticalmente */
-  padding: 1vh; /* Adiciona um espaçamento interno */
+  display: flex; 
+  gap: 0; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 1vh; 
 }
 #titulo_legue a{
-  color: rgb(73, 192, 248); /* Azul neon */
-  text-decoration: none; /* Remove sublinhado padrão */
-  font-weight: bold; /* Deixa o texto mais destacado */
+  color: rgb(73, 192, 248); 
+  text-decoration: none;
+  font-weight: bold;
   transition: 0.3s;
 }
 #img_legue{
@@ -100,35 +100,35 @@ aside {
 }
 #legue_write {
   display: flex;
-  flex-direction: column; /* Empilha os spans verticalmente */
-  gap: 1vh; /* Adiciona um espaço entre os spans */
+  flex-direction: column; 
+  gap: 1vh; 
 }
 #legue_write span {
-  display: block; /* Garante que cada span ocupe uma linha */
-  font-size: 2.6vh; /* Ajusta o tamanho da fonte */
+  display: block; 
+  font-size: 2.6vh; 
 }
 #Daily_quest{
   width: 100%;
-  height: 70vh; /* Ajustado para o conteúdo */
+  height: 70vh; 
   padding: 1vh;
   padding-right: 1vh;
-  border: 3px solid rgb(65, 65, 65); /* Borda azul neon */
+  border: 3px solid rgb(65, 65, 65); 
   border-radius: 20px;
   margin-top: 5vh;
   margin-bottom: 20vh;
 }
 #display_daily{
   display: flex;
-  gap: 0; /* Remove qualquer gap interno entre os itens */
-  justify-content: space-between; /* Maximiza o espaço entre os itens */
-  align-items: center; /* Alinha os itens verticalmente */
+  gap: 0;
+  justify-content: space-between; 
+  align-items: center; 
   padding-right: 10px;
   padding-left: 10px;
 }
 #display_daily a{
-  color: rgb(73, 192, 248); /* Azul neon */
-  text-decoration: none; /* Remove sublinhado padrão */
-  font-weight: bold; /* Deixa o texto mais destacado */
+  color: rgb(73, 192, 248);
+  text-decoration: none; 
+  font-weight: bold; 
   transition: 0.3s;
 }
 .xp-container {
@@ -139,7 +139,7 @@ aside {
   display: flex;
   align-items: center;
   gap: 0px;
-  position: relative; /* Define o contêiner como relativo */
+  position: relative; 
 }
 
 .icon {
@@ -147,7 +147,7 @@ aside {
   height: 60px;
   margin-right: 10px;
   background-size: cover;
-  background-position: center; /* Centraliza a imagem */
+  background-position: center; 
 }
 .icon_1{
   background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/2b5a211d830a24fab92e291d50f65d1d.svg");
@@ -164,14 +164,14 @@ aside {
   background: #555;
   height: 18px;
   border-radius: 10px;
-  position: relative; /* Mantém a barra de progresso relativa */
-  margin-top: 10px; /* Adiciona um espaço entre o texto e a barra */
+  position: relative; 
+  margin-top: 10px; 
 }
 
 .progress {
   background: #ffcc00;
   height: 100%;
-  width: 10%; /* Você pode ajustar isso dinamicamente */
+  width: 10%; 
   border-radius: 10px;
   transition: width 0.3s;
 }
@@ -179,11 +179,11 @@ aside {
 
 .xp-text {
   font-size: 20px;
-  position: absolute; /* Torna o texto absoluto */
-  top: 2px; /* Ajusta a posição do texto acima da barra de progresso */
-  left: 0; /* Alinha o texto à esquerda da barra de progresso */
-  text-align: left; /* Centraliza o texto em relação à barra de progresso */
-  width: 350px; /* Faz com que o texto ocupe toda a largura do contêiner */
+  position: absolute; 
+  top: 2px; 
+  left: 0; 
+  text-align: left; 
+  width: 350px; 
   padding-left: 95px;
 }
 
@@ -194,7 +194,7 @@ aside {
   background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/df7eda7cc1cc833ba30cd1e82781b68f.svg");
   border-radius: 3px;
   background-size: cover;
-  background-position: center; /* Centraliza a imagem */
+  background-position: center; 
 }
 
 .reward_3 {
@@ -203,7 +203,7 @@ aside {
   background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/ca23da57929a3144934ee0571a2f44e9.svg");
   border-radius: 3px;
   background-size: cover;
-  background-position: center; /* Centraliza a imagem */
+  background-position: center; 
 }
 .reward_2 {
   width: 30px;
@@ -211,7 +211,7 @@ aside {
   background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/goals/9ec970f9fd7820abd758cb4cf805e73c.svg");
   border-radius: 3px;
   background-size: cover;
-  background-position: center; /* Centraliza a imagem */
+  background-position: center; 
 }
 nav {
   width: 240px;
@@ -236,14 +236,11 @@ nav {
   padding-top: 11px;
 }
 
-/* Estilos para o container do logo */
 #logo_h1 {
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
+  justify-content: center;
 }
-
-/* Estilos para a imagem do logo */
 #logo {
   width: 120px;
   height: auto;
@@ -284,8 +281,8 @@ nav {
 }
 .nav_item_1 span{
   display: flex;
-  gap: 0; /* Remove qualquer gap interno entre os itens */
-  justify-content: space-between; /* Maximiza o espaço entre os itens */
+  gap: 0; 
+  justify-content: space-between; 
 }
 
 #secoes{
@@ -325,8 +322,8 @@ nav {
 #guidebook{
   display: flex;
   border-radius: 12px;
-  border: 2px solid rgba(0, 0, 0, 0.2); /* Borda leve */
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3); /* Sombra na parte de baixo */
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3); 
   width: 130px;
   height: 30px;
   padding: 5px;
@@ -365,24 +362,24 @@ nav {
   border-left: 2px solid rgb(32, 47, 54);
 }
 #level_1 {
-  padding-right: 20px; /* Diminua o espaço */
+  padding-right: 20px; 
 }
 .person {
   display: flex;
-  align-items: center; /* Alinha verticalmente */
-  gap: 10px; /* Espaçamento entre a bolinha e a imagem */
+  align-items: center; 
+  gap: 10px; 
   justify-content: center;
   height: 140px;
   width: 90%;
   padding-left: 90px;
 }
 #img_person {
-  align-items: center; /* Mantém alinhado com a bolinha */
-  width: auto; /* Ajusta ao conteúdo */
+  align-items: center; 
+  width: auto; 
   height: auto;
 }
 #img_person img {
-  width: 250px; /* Ajuste conforme necessário */
+  width: 250px; 
   height: auto;
 }
 #level_3{
